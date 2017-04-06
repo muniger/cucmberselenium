@@ -32,7 +32,7 @@ public class LoginStep extends BaseUtil{
 
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() throws Throwable {
-
+         System.out.println("Starting page");
         System.out.println("Navigate Login Page");
         base.Driver.navigate().to("https://www.makemytrip.com/");
         base.Driver.manage().window().maximize();
